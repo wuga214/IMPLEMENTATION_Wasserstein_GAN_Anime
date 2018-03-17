@@ -2,8 +2,12 @@ Wassertein Generative Adversarial Network(WGAN)
 ===
 This is simple demo of Wassertein GAN on Anime dataset. The model need around 20000 iterations to get reasonable result. The running time could be around 3 hours on GTX 1070 GPU.
 
+## How to start
+```bash
+$python main.py
+```
+
 ## Data
-===
 Anime Data that crawled from Japanese Anime Websites randomly and preprocessed through anime face detection code, for example [lbpcascade](https://github.com/nagadomi/lbpcascade_animeface). I collected around 20000 images as training data. Please do not ask me for sharing the data due to potential copyright issue.
 
 ## Stability
